@@ -1,26 +1,27 @@
-all: queue consumer producer diners diners_lib 
+all: queue consumer producer diners dinerslib
 #philosopher
 
 queue: fifo_queue.h
 	gcc -o queue fifo_queue.h
 
 consumer: consumer.c
-	gcc -o con consumer.c -lrt
+	gcc -o consumer consumer.c
 
 producer: producer.c
-	gcc -o pro producer.c -lrt
+	gcc -o producer producer.c
 
 diners: diners.c
-	gcc -o diners diners.c -lrt
+	gcc -o diners diners.c
 
-diners_lib: diners.h
-	gcc -o diners_lib diners.h
+dinerslib: diners.h
+	gcc -o dinerslib diners.h
 
 .PHONY: clean
 
 clean:
 		rm -f queue.o
-		rm -f con.o
-		rm -f pro.o
+		rm -f consumer.o
+		rm -f producer.o
 		rm -f diners.o
-		rm -f diners_lib.o
+		rm -f dinerslib.o
+	

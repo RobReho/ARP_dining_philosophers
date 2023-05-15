@@ -1,20 +1,28 @@
-1626363220 : 602825 :: diners (13630): reading_____________
-1626363220 : 713354 :: diners (13630): phil entering
-1626363220 : 602825 :: diners (13630): reading_____________
-1626363220 : 713354 :: diners (13630): phil entering
-1626363224 : 330255 :: diners (13630): reading_____________
-1626363224 : 430327 :: diners (13630): phil entering
-1626363220 : 602825 :: diners (13630): reading_____________
-1626363220 : 713354 :: diners (13630): phil entering
-1626363224 : 330255 :: diners (13630): reading_____________
-1626363224 : 430327 :: diners (13630): phil entering
-1626363266 : 230574 :: diners (13672): reading_____________
-1626363266 : 331172 :: diners (13672): phil entering
-1626363268 : 5870 :: diners (13672): reading_____________
-1626363268 : 107066 :: diners (13672): phil entering
-1626363266 : 230574 :: diners (13672): reading_____________
-1626363266 : 331172 :: diners (13672): phil entering
-1626363266 : 230574 :: diners (13672): reading_____________
-1626363266 : 331172 :: diners (13672): phil entering
-1626363268 : 5870 :: diners (13672): reading_____________
-1626363268 : 107066 :: diners (13672): phil entering
+1626190513 : 740680 :: pid(10600): A philosopher terminated
+1626190514 : 793026 :: pid(10601): A philosopher terminated
+1626190516 : 269976 :: pid(10602): A philosopher terminated
+1626190521 : 575648 :: pid(10597): A philosopher terminated
+1626211604 : 246760 :: pid(11150): A philosopher terminated
+1626211604 : 249209 :: pid(11158): A philosopher terminated
+1626211604 : 250046 :: pid(11159): A philosopher terminated
+1626211604 : 252259 :: pid(11160): A philosopher terminated
+1626212433 : 692173 :: pid(11207): A philosopher terminated
+1626212437 : 297820 :: pid(11203): A philosopher terminated
+1626212437 : 300190 :: pid(11208): A philosopher terminated
+1626212437 : 300774 :: pid(11209): A philosopher terminated
+1626212537 : 310634 :: pid(11237): A philosopher terminated
+1626212538 : 564891 :: pid(11233): A philosopher terminated
+1626212538 : 565560 :: pid(11239): A philosopher terminated
+1626212538 : 565707 :: pid(11238): A philosopher terminated
+1626212633 : 333066 :: diners (11264): A philosopher terminated
+1626212636 : 474232 :: diners (11265): A philosopher terminated
+1626212770 : 584830 :: diners (11266): A philosopher terminated
+1626212814 : 635793 :: diners (11259): A philosopher terminated
+1626212814 : 637494 :: diners (11403): A philosopher terminated
+1626212814 : 637878 :: diners (11408): A philosopher terminated
+1626365473 : 684617 :: diners (14048): A philosopher terminated
+1626365477 : 983057 :: diners (14049): A philosopher terminated
+1626365483 : 862119 :: diners (14042): A philosopher terminated
+1626365819 : 742080 :: diners (14105): A philosopher terminated
+1626365819 : 747288 :: diners (14111): A philosopher terminated
+1626365819 : 748124 :: diners (14110): A philosopher terminated

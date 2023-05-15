@@ -5,12 +5,10 @@ of the fifo queue of the philosophers entering and exiting the dining room.
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <signal.h>
+#include <sys/wait.h>
 
-#define MAX_PHIL_COUNT 5    //Maximum number of philosophers at the table
-
-int queue[MAX_PHIL_COUNT];
-int first = -1;
-int last = -1;
+#define MAX 5   //Maximum number of philosophers at the table
 
 /*  Function that adds a philosopher at the table: 
     increases the occupied seats by writing a "1" into 
@@ -25,11 +23,15 @@ void leave();
 
 /*  Function that prints the pid of the processes (philosophers)
     that have entered the room.  */
-//void display();
+void display();
+
+int queue[MAX];
+int first = -1;
+int last = -1;
 
 void enter(){
     int phil = 1;
-    if(last == MAX_PHIL_COUNT - 1)
+    if(last == MAX - 1)
     printf("Table is full\n");
     else{
         if(first == -1)
@@ -43,21 +45,21 @@ void enter(){
 void leave(){
     if(first == -1 || first > last){
         printf("Table empty\n");
-        first = -1;
-        last = -1;
+        //first = -1;
+        //last = -1;
         return;
     }
     else{
         first++;
     }
 }
-/*        
+        
 void display(){
     int i;
     if(first == -1)
-        logprint("Table empty\n");
+        printf("Table empty\n");
     else{
-        logprint("Philosophers in the room are: ");
+        printf("Philosophers in the room are: ");
         for(i = first; i <= last; i++){
             printf("%i ",i);    //queue[i] to print the content of the array
         }
@@ -65,4 +67,4 @@ void display(){
     }
         printf("first: %d\nlast: %d\n",first, last);
 
-}*/
+}
